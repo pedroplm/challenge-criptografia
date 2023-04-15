@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="./style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encrypt&Decrypt</title>
+  </head>
+  <body>
+    <header>
+      <div class="encrypt-decrypt__navbar">
+        <h1>a</h1>
+      </div>
+    </header>
+    <h2>Encrypt & Decript</h2>
+    <div class="encrypt-decrypt__encrypt-and-output-container">
+      <div class="encrypt-decrypt__encrypt-container">
+        <p>Encrypt</p>
+        <input
+          type="text"
+          placeholder="Escreva o texto a ser encriptografado"
+          id="encrypt"
+        />
+        <button class="btn" onclick="inputCriptografar()">Criptografar</button>
+      </div>
+      <div class="encrypt-decrypt__decrypt-container">
+        <p>Decrypt</p>
+        <input
+          type="text"
+          placeholder="Coloque o texto encriptografado para descriptografalo"
+          id="decrypt"
+        />
+        <button class="btn" onclick="inputDescriptografar()">
+          Descriptografar
+        </button>
+      </div>
+      <div class="encrypt-decrypt__output" id="encrypt-decrypt-output">
+        <div class="encrypt-decrypt__output-container">
+          <h2>Encrypt & Decrypt Output</h2>
+          <p id="encodedTxt"></p>
+          <button class="btn" id="copiar" onclick="copiar()">Copiar</button>
+        </div>
+      </div>
+    </div>
+    <div class="encrypt-decrypt__footer">
+      <p>© 2023 Pedro de Araujo Palomo - Todos os direitos reservados.</p>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

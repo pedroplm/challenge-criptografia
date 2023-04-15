@@ -1,0 +1,160 @@
+.encrypt-decrypt__navbar {
+  background-color: black;
+  color: bisque;
+  width: 940px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.encrypt-decrypt__navbar h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.encrypt-decrypt__navbar li {
+  display: inline;
+  margin: 0px 0px 0px 15px;
+  margin-top: 0;
+  margin-right: 0;
+}
+
+.encrypt-decrypt__navbar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: bisque;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.encrypt-decrypt__navbar a:hover {
+  color: white;
+}
+
+.encrypt-decrypt {
+  background-color: rgb(31, 30, 30);
+}
+
+.encrypt-decrypt__encrypt-container {
+  display: block;
+}
+
+.encrypt-decrypt__encrypt-container h2 {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: bisque;
+  text-align: center;
+}
+.encrypt-decrypt__encrypt-container p {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: bisque;
+  text-align: center;
+}
+
+.btn {
+  background-color: bisque;
+  border-radius: 5px;
+  padding: 2px 4px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  margin: 4px 0px;
+  font-family: var(--font-family);
+  font-weight: 600;
+}
+.btn:hover {
+  background-color: rgb(56, 56, 56);
+  color: bisque;
+}
+.encrypt-decrypt__encrypt-container-input {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  margin: 4px auto 0px auto;
+}
+.encrypt-decrypt__encrypt-container-input input {
+  height: 50px;
+  text-align: center;
+  color: rgb(56, 56, 56);
+  font-size: medium;
+}
+
+.encrypt-decrypt__decrypt-container h2 {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: bisque;
+  text-align: center;
+}
+.encrypt-decrypt__decrypt-container p {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 18px;
+  color: bisque;
+  text-align: center;
+}
+.encrypt-decrypt__decrypt-container-input {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  margin: 4px auto 0px auto;
+}
+.encrypt-decrypt__decrypt-container-input button {
+  margin-bottom: 30px;
+}
+.encrypt-decrypt__decrypt-container-input input {
+  height: 50px;
+  text-align: center;
+  color: rgb(56, 56, 56);
+  font-size: medium;
+}
+
+.encrypt-decrypt__output {
+  background-color: rgb(31, 30, 30);
+}
+
+.encrypt-decrypt__output-container {
+  display: flex;
+  flex-direction: column;
+  width: 940px;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+.encrypt-decrypt__output h2 {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  color: bisque;
+  text-align: center;
+}
+.encrypt-decrypt__output p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+  height: 80px;
+  margin: 10px 0px;
+  background-color: white;
+  border-radius: 10px;
+}
+.enctrypt-decrypt__footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+.enctrypt-decrypt__footer-container {
+  color: bisque;
+  width: 940px;
+  height: 50px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.enctrypt-decrypt__footer p {
+  padding: 18px;
+}
